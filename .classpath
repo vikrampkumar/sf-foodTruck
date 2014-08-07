@@ -2,6 +2,8 @@
 <classpath>
 	<classpathentry including="**/*.java" kind="src" path="src/main/java"/>
 	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="src" path="src/test/resources"/>
+	<classpathentry kind="src" path="src/main/resources"/>
 	<classpathentry kind="var" path="M2_REPO/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="jar:file:/Users/vkumar/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-javadoc.jar!/"/>
@@ -136,14 +138,19 @@
 			<attribute name="javadoc_location" value="jar:file:/Users/vkumar/.m2/repository/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="var" path="M2_REPO/org/quartz-scheduler/quartz/2.2.1/quartz-2.2.1.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/Users/vkumar/.m2/repository/org/quartz-scheduler/quartz/2.2.1/quartz-2.2.1-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-context-support/4.0.3.RELEASE/spring-context-support-4.0.3.RELEASE.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="jar:file:/Users/vkumar/.m2/repository/org/springframework/spring-context-support/4.0.3.RELEASE/spring-context-support-4.0.3.RELEASE-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/vkumar/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar" sourcepath="/Users/vkumar/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="javadoc_location" value="jar:file:/Users/vkumar/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4-javadoc.jar!/"/>
+			<attribute name="maven.groupId" value="commons-io"/>
+			<attribute name="maven.artifactId" value="commons-io"/>
+			<attribute name="maven.version" value="2.4"/>
+			<attribute name="maven.scope" value="compile"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
