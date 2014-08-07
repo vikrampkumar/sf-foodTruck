@@ -5,13 +5,13 @@ Web app to get sf food trucks at a given latitude and longitude.
 
 How to run the Food Truck web app 
 
-1)You could do the following from command line
+1)You could do the following from command line 
    a) mvn package
    b) java -jar target/foodTruck-1.1.4.RELEASE.jar
 
 2) From Eclipse
    a) Import the project into eclipse.
-   b) Run as spring boot app.
+   b) Click on "Run" -> Run as spring boot app.
 
 Once the web app is running, the below is an example of the rest api's available from the web app.
 
